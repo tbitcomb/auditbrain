@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: ./api/Containerfile
+    volumes:
+      - ./api:/workspace
+
+  slack-bot:
+    build:
+      context: ./slack-bot
+      dockerfile: ./slack-bot/Containerfile
+    volumes:
+      - ./slack-bot:/workspace

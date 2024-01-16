@@ -1,0 +1,12 @@
+FROM alpine:3.19
+
+WORKDIR /workspace
+
+RUN apk add --no-cache \
+    deno
+
+COPY . .
+
+RUN \
+    deno cache deps.ts && \
+    rm -rf ./* ./.[!.]*

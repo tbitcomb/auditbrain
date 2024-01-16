@@ -1,0 +1,6 @@
+[submodule "api/dist"]
+	path = api/dist
+	url = https://github.com/mozilla/readability.git
+[submodule "api/vendor/readability"]
+	path = api/vendor/readability
+	url = https://github.com/mozilla/readability.git

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  chat-ui:
+    build:
+      dockerfile: Containerfile
+    env_file: .env
+    volumes:
+      - .:/workspace
+    ports:
+      - "${PORT}:${PORT}"

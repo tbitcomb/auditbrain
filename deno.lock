@@ -1,0 +1,103 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "@ngrok/ngrok": "@ngrok/ngrok@0.6.0",
+      "gpt-tokenizer": "gpt-tokenizer@2.1.1",
+      "playwright": "playwright@1.35.1"
+    },
+    "packages": {
+      "@ngrok/ngrok-android-arm-eabi@0.6.0": {
+        "integrity": "sha512-O0MD8z3c6UCzRuiqw+u3fW4ZkptOE9nxAV7NGX7NSqT7ETiRhIUJzVv5BmltagK1gvTR19VYkcpRVjPtWXHocg==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-android-arm64@0.6.0": {
+        "integrity": "sha512-XzVWnvq3qFVjXSBPVpuDfyt6I1hmZ2Ty/kPURDb7c0NW/QlyVMFjuAnQBHBU30LhPaj6ktyuJZBV1QdptL97Lw==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-darwin-arm64@0.6.0": {
+        "integrity": "sha512-1bIHb3ZgCISWeSHRl2HvOgV7qDvwnsqwkur1DxPpUSu8zFCcnc/KwgD1gMAoV0jxK/uDOIqwqH00O5wgiDYilQ==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-darwin-universal@0.6.0": {
+        "integrity": "sha512-k2RSctS1aiz5dB5oUHBgtv9xrQqpwyo12JbTDyzSn21mHO8GUcNzk3qBSqfjnFE1QoHd2Inu3djpYnzcMiTi/g==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-darwin-x64@0.6.0": {
+        "integrity": "sha512-AksyGCaJMANSpSKVEaba1rD6Qc6AwHaOzi1BBHItPxlN3hq3UpMnAG6nE6nIBMkLSlnkGHKviFT5tC2CL8aTxA==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-freebsd-x64@0.6.0": {
+        "integrity": "sha512-b8YldrH3YIi1Wafvxqz2PodbxfLobikD5M5AAwnuSR381iCP9likSBBAL6Xijg0DrEFa59+RMEZvhC5p4dNGOw==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-linux-arm-gnueabihf@0.6.0": {
+        "integrity": "sha512-q1Ls5YT5yHjwJQk/qBxWA7Z5K0ONcr5PMT37Oc4dtOoE0XJqENbS9lG3dFoec7Yk23EDMB71ep0qCW9/bgy9kA==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-linux-arm64-gnu@0.6.0": {
+        "integrity": "sha512-FMagS6hzVYhvWpory4i5ctC+88tiCcCQZXLxBxwSH2E5qh5dedyOqTX5iZVT0jN7ID0XL+XDa+vGnR8mYcHs6w==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-linux-arm64-musl@0.6.0": {
+        "integrity": "sha512-6aB/RQUvLDuRA3zlxaO7g6a1T6XgsFJcHPHIlkNLrVVWUjgO2HJ3YCw1g6m+b3Z0Eq/mQdQvybMb0lvsM9Ciiw==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-linux-x64-gnu@0.6.0": {
+        "integrity": "sha512-VFdsQcoqkUUEmmQQb68W/OGT8sHHXA6F86mb/z/lYovYfKA6JSMIpROFScIOzx+fkETnhYrcAaTuVBnPLdMWUg==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-linux-x64-musl@0.6.0": {
+        "integrity": "sha512-o/Y/kE1+g7IS90ukn/rvD52YWYuuHHPjGTGGyexrXoZrteDrIwFa0lykRkshDd7giwWlUIYsLy+Bkdl942VDjg==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-win32-ia32-msvc@0.6.0": {
+        "integrity": "sha512-XRG2H+ZzBE6dR3pt1uJvATtdOYoAZPCO4yYGEFpR1VPGu0m34s3TrZlRgBI4wA+eZdEciij/QGVh8F53icX4Hg==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok-win32-x64-msvc@0.6.0": {
+        "integrity": "sha512-0qJiO7cfkD16Repc2bb6vFb2xkfbPO6HFyBB0NblAtVM7vYu33dLMxHZyeKVcwj6tQvojV/IDWp9eHOwuif2/A==",
+        "dependencies": {}
+      },
+      "@ngrok/ngrok@0.6.0": {
+        "integrity": "sha512-CXC69XHB0SaxY4ZLkynBLPmdPvr9VOOS9oN4IlxZy1VUxuQMubdTFJeIVOVqtVLESakB161KShp461mD4Eu1+Q==",
+        "dependencies": {
+          "@ngrok/ngrok-android-arm-eabi": "@ngrok/ngrok-android-arm-eabi@0.6.0",
+          "@ngrok/ngrok-android-arm64": "@ngrok/ngrok-android-arm64@0.6.0",
+          "@ngrok/ngrok-darwin-arm64": "@ngrok/ngrok-darwin-arm64@0.6.0",
+          "@ngrok/ngrok-darwin-universal": "@ngrok/ngrok-darwin-universal@0.6.0",
+          "@ngrok/ngrok-darwin-x64": "@ngrok/ngrok-darwin-x64@0.6.0",
+          "@ngrok/ngrok-freebsd-x64": "@ngrok/ngrok-freebsd-x64@0.6.0",
+          "@ngrok/ngrok-linux-arm-gnueabihf": "@ngrok/ngrok-linux-arm-gnueabihf@0.6.0",
+          "@ngrok/ngrok-linux-arm64-gnu": "@ngrok/ngrok-linux-arm64-gnu@0.6.0",
+          "@ngrok/ngrok-linux-arm64-musl": "@ngrok/ngrok-linux-arm64-musl@0.6.0",
+          "@ngrok/ngrok-linux-x64-gnu": "@ngrok/ngrok-linux-x64-gnu@0.6.0",
+          "@ngrok/ngrok-linux-x64-musl": "@ngrok/ngrok-linux-x64-musl@0.6.0",
+          "@ngrok/ngrok-win32-ia32-msvc": "@ngrok/ngrok-win32-ia32-msvc@0.6.0",
+          "@ngrok/ngrok-win32-x64-msvc": "@ngrok/ngrok-win32-x64-msvc@0.6.0"
+        }
+      },
+      "gpt-tokenizer@2.1.1": {
+        "integrity": "sha512-WlX+vj6aPaZ71U6Bf18fem+5k58zlgh2a4nbc7KHy6aGVIyq3nCh709b/8momu34sV/5t/SpzWi8LayWD9uyDw==",
+        "dependencies": {
+          "rfc4648": "rfc4648@1.5.2"
+        }
+      },
+      "playwright-core@1.35.1": {
+        "integrity": "sha512-pNXb6CQ7OqmGDRspEjlxE49w+4YtR6a3X6mT1hZXeJHWmsEz7SunmvZeiG/+y1yyMZdHnnn73WKYdtV1er0Xyg==",
+        "dependencies": {}
+      },
+      "playwright@1.35.1": {
+        "integrity": "sha512-NbwBeGJLu5m7VGM0+xtlmLAH9VUfWwYOhUi/lSEDyGg46r1CA9RWlvoc5yywxR9AzQb0mOCm7bWtOXV7/w43ZA==",
+        "dependencies": {
+          "playwright-core": "playwright-core@1.35.1"
+        }
+      },
+      "rfc4648@1.5.2": {
+        "integrity": "sha512-tLOizhR6YGovrEBLatX1sdcuhoSCXddw3mqNVAcKxGJ+J0hFeJ+SjeWCv5UPA/WU3YzWPPuCVYgXBKZUPGpKtg==",
+        "dependencies": {}
+      }
+    }
+  }
+}

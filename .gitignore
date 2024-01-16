@@ -1,0 +1,6 @@
+.vscode/
+api/data/
+vendor/
+api/vendor/
+.env
+api/.env

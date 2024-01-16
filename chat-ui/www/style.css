@@ -1,0 +1,113 @@
+:root {
+	--luna\\gray50: #f8fafc;
+	--luna\\gray100: #f1f5f9;
+	--luna\\gray200: #e2e8f0;
+	--luna\\gray300: #cbd5e1;
+	--luna\\gray400: #94a3b8;
+	--luna\\gray500: #64748b;
+	--luna\\gray600: #475569;
+	--luna\\gray700: #334155;
+	--luna\\gray800: #1e293b;
+	--luna\\gray900: #0f172a;
+	--luna\\grayA50: hsl(210deg 98% 20% / 3%);
+	--luna\\grayA100: hsl(210deg 98% 25% / 6%);
+	--luna\\grayA200: hsl(214deg 98% 25% / 11%);
+	--luna\\grayA300: hsl(213deg 78% 25% / 21%);
+	--luna\\grayA400: hsl(215deg 58% 25% / 47%);
+	--luna\\grayA500: hsl(215deg 55% 21% / 67%);
+	--luna\\grayA600: hsl(215deg 50% 17% / 79%);
+	--luna\\grayA700: hsl(215deg 55% 14% / 85%);
+	--luna\\grayA800: hsl(217deg 60% 10% / 92%);
+	--luna\\grayA900: hsl(222deg 90% 5% / 93%);
+	--luna\\blue50: #f2f8ff;
+	--luna\\blue100: #dbeaff;
+	--luna\\blue200: #c0d8fa;
+	--luna\\blue300: #9bc1f3;
+	--luna\\blue400: #5896ee;
+	--luna\\blue500: #3172e3;
+	--luna\\blue600: #1f5dd8;
+	--luna\\blue700: #0e48a1;
+	--luna\\blue800: #112b5c;
+	--luna\\blue900: #0a1834;
+	--luna\\red50: #fff0f0;
+	--luna\\red100: #ffe0e0;
+	--luna\\red200: #ffbfbf;
+	--luna\\red300: #ff8f8f;
+	--luna\\red400: #fa5757;
+	--luna\\red500: #db3535;
+	--luna\\red600: #ba2a2a;
+	--luna\\red700: #8c1c1c;
+	--luna\\red800: #5a1919;
+	--luna\\red900: #3e0c0c;
+	--luna\\orange50: #fff5e8;
+	--luna\\orange100: #ffeacf;
+	--luna\\orange200: #ffcf99;
+	--luna\\orange300: #ffa94d;
+	--luna\\orange400: #f0710f;
+	--luna\\orange500: #cc4e00;
+	--luna\\orange600: #a84100;
+	--luna\\orange700: #7e2b0a;
+	--luna\\orange800: #5c2311;
+	--luna\\orange900: #3d180c;
+	--luna\\yellow50: hsl(48deg 100% 96.08%);
+	--luna\\yellow100: hsl(54.92deg 96.72% 88.04%);
+	--luna\\yellow200: hsl(52.76deg 98.31% 76.86%);
+	--luna\\yellow300: hsl(50.44deg 97.85% 63.53%);
+	--luna\\yellow400: hsl(47.95deg 95.82% 53.14%);
+	--luna\\yellow500: hsl(45.4deg 93.39% 47.45%);
+	--luna\\yellow600: hsl(40.61deg 96.12% 40.39%);
+	--luna\\yellow700: hsl(33.68deg 70.37% 31.76%);
+	--luna\\yellow800: hsl(31.2deg 78.95% 18.63%);
+	--luna\\yellow900: hsl(28.16deg 80.33% 11.96%);
+	--luna\\green50: #e3fcec;
+	--luna\\green100: #c6fdd9;
+	--luna\\green200: #99f2b5;
+	--luna\\green300: #59d478;
+	--luna\\green400: #44a45c;
+	--luna\\green500: #36844a;
+	--luna\\green600: #26603b;
+	--luna\\green700: #1b4a2c;
+	--luna\\green800: #11341e;
+	--luna\\green900: #062412;
+	--luna\\purple50: #f6f4fc;
+	--luna\\purple100: #e5ddfa;
+	--luna\\purple200: #c6b5eb;
+	--luna\\purple300: #9e82d9;
+	--luna\\purple400: #8254e8;
+	--luna\\purple500: #6931e3;
+	--luna\\purple600: #4518a8;
+	--luna\\purple700: #341180;
+	--luna\\purple800: #250f57;
+	--luna\\purple900: #1a0a3d;
+	--luna\\white: #ffffff;
+}
+
+:root {
+	--luna\\shadow100: 0 0.125rem 0.25rem var(--luna\\grayA200),
+		0 0 0.5rem var(--luna\\grayA100);
+	--luna\\shadow200: 0 0.25rem 0.5rem var(--luna\\grayA200),
+		0 0 1rem var(--luna\\grayA100);
+	--luna\\shadow300: 0 0.5rem 1rem var(--luna\\grayA200),
+		0 0 2rem var(--luna\\grayA100);
+	--luna\\shadow400: 0 1rem 1.5rem var(--luna\\grayA200),
+		0 0 3rem var(--luna\\grayA100);
+	--luna\\shadowQuickView: -1rem 0 2rem 0.125rem var(--luna\\grayA300),
+		0 0.125rem 0.25rem var(--luna\\grayA200);
+}
+
+:root {
+	--luna\\fontFamily: ui-sans-serif, system-ui, -apple-system,
+		blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans",
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+		"Noto Color Emoji";
+
+	/* style, variant, weight, size/line-height, font-family */
+	--luna\\font50: normal normal 400 normal 0.6875rem/1.5 var(--luna\\fontFamily); /* 11px */
+	--luna\\font100: normal normal 400 normal 0.75rem/1.5 var(--luna\\fontFamily); /* 12px */
+	--luna\\font200: normal normal 400 normal 0.875rem/1.5 var(--luna\\fontFamily); /* 14px */
+	--luna\\font300: normal normal 400 normal 1rem/1.4 var(--luna\\fontFamily); /* 16px */
+	--luna\\font400: normal normal 400 normal 1.125rem/1.2 var(--luna\\fontFamily); /* 18px */
+	--luna\\font500: normal normal 400 normal 1.5rem/1.2 var(--luna\\fontFamily); /* 24px */
+	--luna\\font600: normal normal 400 normal 2rem / 1.2 var(--luna\\fontFamily); /* 32px */
+}
+

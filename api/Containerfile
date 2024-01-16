@@ -1,0 +1,38 @@
+FROM alpine:3.19 AS deps
+
+RUN apk add --no-cache \
+    curl \
+    unzip && \
+    curl -O https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz && \
+    mkdir -p /ngrok && \
+    tar xvzf ngrok-v3-stable-linux-arm64.tgz -C /ngrok
+
+# GOD FREAKING DAMN IT I HATE FILE SYSTEMS
+#
+# RUN apk add --no-cache \
+#     curl \
+#     unzip && \
+#     curl -O https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz && \
+#     mkdir -p /ngrok && \
+#     tar xvzf ngrok-v3-stable-linux-arm64.tgz -C /ngrok && \
+#     curl -O https://playwright.azureedge.net/builds/chromium/1092/chromium-linux-arm64.zip && \
+#     mkdir -p /chromium && \
+#     unzip chromium-linux-arm64.zip -d /chromium
+
+
+FROM alpine:3.19 AS build
+
+WORKDIR /workspace
+
+COPY --from=deps /ngrok/ /usr/local/bin/
+# COPY --from=deps /chromium/chrome-linux/ /chromium/
+
+RUN apk add --no-cache \
+    chromium \
+    deno
+
+COPY . .
+
+RUN \
+    deno cache deps.ts && \
+    rm -rf ./* ./.[!.]*

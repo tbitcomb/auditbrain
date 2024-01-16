@@ -4,3 +4,4 @@ vendor/
 api/vendor/
 .env
 api/.env
+.DS_Store
